@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio5</title>
+ 
+  <script>
+   var ladoA = parseFloat(prompt("Insira o lado A: "));
+   var ladoB = parseFloat(prompt("Insira o lado B: "));
+   var ladoC = parseFloat(prompt("Insira o lado C: "));
+   var mensagem;
+ 
+   if (ladoA == ladoB && ladoA != ladoC){
+ mensagem = `Isosceles`;
+}
+else if (ladoA != ladoB && ladoC != ladoB){
+ mensagem = `Escaleno`;
+}
+else {
+  mensagem = `Equilatero`;
+}
+ 
+alert(mensagem);
+ 
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
+
